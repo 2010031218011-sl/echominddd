@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>echoroom</title>
+  <link href="des.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+
+    <div class="logo"> EchoMind</div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="echoroom.html">Echo room</a></li>
+      <li><a href="share.html">share</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero">
+
+    <h1>Welcome to EchoRoom</h1>
+
+    <p>
+      A safe place where silent thoughts become echoes.
+      Speak freely. Stay anonymous. Be heard.
+    </p>
+
+  </section>
+
+  <!-- ================= ECHO MESSAGE SECTION ================= -->
+  <section class="echo-container">
+
+    <!-- CARD 1 -->
+    <div class="echo-card">
+
+      <h2> Anonymous Echo</h2>
+
+      <p>
+        “Sometimes I smile while feeling completely lost inside.”
+      </p>
+
+      <button class="echo-btn"> Listen</button>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="echo-card">
+
+      <h2> Midnight Thought</h2>
+
+      <p>
+        “I wish people understood how heavy silence can feel.”
+      </p>
+
+      <button class="echo-btn"> Listen</button>
+
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="echo-card">
+
+      <h2> Quiet Confession</h2>
+
+      <p>
+        “Today was difficult… but I still kept going.”
+      </p>
+
+      <button class="echo-btn">Listen</button>
+
+    </div>
+
+  </section>
+
+  <!-- ================= SHARE SECTION ================= -->
+  <section class="share-section">
+
+    <h2>Share Your Echo</h2>
+
+    <textarea
+      placeholder="Write your anonymous thought here..."
+    ></textarea>
+
+    <br>
+
+   <button onclick="showMessage()" class="share-btn">
+    Post Echo
+</button>
+
+<script>
+    function showMessage() {
+        alert("✅ Your Echo has been posted!");
+    }
+</script>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+
+    <p>
+      “Even silent voices create echoes.”
+    </p>
+
+  </footer>
+
+</body>
+</html>

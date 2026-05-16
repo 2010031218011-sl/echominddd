@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Share Your Echo</title>
+
+    <link rel="stylesheet" href="L.css">
+</head>
+
+<body>
+
+   
+
+    <nav class="navbar">
+
+        <div class="logo"> EchoMind</div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="echoroom.html">EchoRoom</a></li>
+
+            <li><a href="share.html">Share</a></li>
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- ===== SHARE HERO ===== -->
+
+    <section class="hero">
+
+        <h1>Share Your Echo</h1>
+
+        <p>
+            Speak freely. Your thoughts matter here.
+        </p>
+
+    </section>
+
+    <!-- ===== SHARE BOX ===== -->
+
+    <section class="share-section">
+
+        <div class="echo-card">
+
+            <h2> Post An Anonymous Thought</h2>
+
+            <input 
+                type="text"
+                placeholder="Enter a title..."
+                class="input-box"
+            >
+
+            <textarea 
+                placeholder="Write what you feel..."
+            ></textarea>
+
+            
+            <button onclick="showMessage()" class="share-btn">
+    Post Echo
+</button>
+
+<script>
+    function showMessage() {
+        alert("✅ Your Echo has been posted!");
+    }
+</script>
+
+        </div>
+
+    </section>
+
+    
+
+    <section class="echo-container">
+
+        <div class="echo-card">
+
+            <h2>Stay Honest</h2>
+
+            <p>
+                Your voice deserves to be heard without fear.
+            </p>
+
+        </div>
+
+        <div class="echo-card">
+
+            <h2> Stay Respectful</h2>
+
+            <p>
+                Everyone here may be carrying silent emotions.
+            </p>
+
+        </div>
+
+        <div class="echo-card">
+
+            <h2> You Are Not Alone</h2>
+
+            <p>
+                Sometimes expressing yourself is the first step to healing.
+            </p>
+
+        </div>
+
+    </section>
+
+  
+
+    <footer class="footer">
+
+        <p>
+            “Even silent voices create echoes.”
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
